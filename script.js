@@ -1,6 +1,6 @@
 const inquirer = require("inquirer")
 console.log('Hello');
-var colorList = ["black", "silver", "gray", "white", "maroon", "red", "purple", "fuchsia"]
+var colorList = ["black", "silver", "gray", "white", "maroon", "red", "purple", "fuchsia", "green", "lime", "olive", "yellow", "navy", "blue", "teal", "aqua"]
 
 const questions = [
 
@@ -18,14 +18,34 @@ const questions = [
     {
         type: "input",
         name: "textcolor",
-        message: "Enter your text colour:"
+        message: "Enter your text colour:",
+        default: () => {},
+        validate: function (color) {
+  
+            valid = /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(color)
+            for (let i=0;i< colorList.length;i ++){
+                if (color==colorList[i]) {
+                    valid2 = true;
+                } else {
+                    valid2 = false;
+                }
+            }
+            if (valid||valid2) {
+              console.log("Great job");
+                return true;
+            } else {
+                console.log("Please enter a valid color")
+                return false;
+            }
     },
+    
     {
         type: "list",
         name: "shape",
         message: "Please choose the shape for your logo:",
         choices: ["Circle", "Triangle", "Square"]
     },
+
     {
         type: "input",
         name: "color",
@@ -53,3 +73,5 @@ const questions = [
 ]
 
 function createLogo (shape, colour, text) 
+shape=new Circle()
+Circle.setColor("Blue")
