@@ -52,16 +52,4 @@ const questions = [
     }
 ]
 
-
-// /*rectangle*/
-
-// <rect x="10" y="10" width="30" height="30"/>
-// <rect x="60" y="10" rx="10" ry="10" width="30" height="30"/>
-
-// /*circle*/
-
-// <circle cx="25" cy="75" r="20"/>
-
-// /*triangle*/
-
-// <polyline points="60, 110 65, 120 70, 115 75, 130 80, 125 85, 140 90, 135 95, 150 100, 145"/>
+function createLogo (shape, colour, text) 
