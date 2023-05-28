@@ -72,6 +72,7 @@ const questions = [
     }
 ]
 
-function createLogo (shape, colour, text) 
-shape=new Circle()
-Circle.setColor("Blue")
+function createLogo(color, shape, text) {
+logoContent =     
+    return logoContent;
+  }
