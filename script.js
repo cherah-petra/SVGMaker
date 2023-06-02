@@ -15,6 +15,7 @@ const questions = [
             return true
         }
     },
+
     {
         type: "input",
         name: "textcolor",
@@ -37,7 +38,8 @@ const questions = [
                 console.log("Please enter a valid color")
                 return false;
             }
-    },
+    }
+},
     
     {
         type: "list",
@@ -72,7 +74,7 @@ const questions = [
     }
 ]
 
-function createLogo(color, shape, text) {
-logoContent =     
-    return logoContent;
-  }
+// function createLogo(color, shape, text) {
+// logoContent =     
+//     return logoContent;
+//   }
