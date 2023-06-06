@@ -15,13 +15,14 @@ Developed an SVG Logo Maker using Inquirer and Jest to test. Based on user enter
 
 File can used and shared to test node knowledge or it can be expanded  upon as needed. 
 
+Example SVG Logo:
 ![Generated Logo Sample](./examples/logo.svg)
 
 
 ## License
 
 - GitHub repository URL: https://github.com/cherah-petra/CP-Code-Quiz-C04
-- Video link: 
+- Video link: https://drive.google.com/file/d/1VwwHsIwgJGyHmPB5lcu98MvY62TZvt_e/view?usp=sharing
 - License: license.txt
 
 
