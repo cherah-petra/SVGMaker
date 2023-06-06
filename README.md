@@ -21,7 +21,7 @@ Example SVG Logo:
 
 ## License
 
-- GitHub repository URL: https://github.com/cherah-petra/CP-Code-Quiz-C04
+- GitHub repository URL: https://github.com/cherah-petra/SVGMaker
 - Video link: https://drive.google.com/file/d/1VwwHsIwgJGyHmPB5lcu98MvY62TZvt_e/view?usp=sharing
 - License: license.txt
 
